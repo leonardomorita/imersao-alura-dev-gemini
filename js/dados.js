@@ -25,8 +25,78 @@ let johanCruyff = {
     }
 };
 
+let xaviHernandez = {
+    nome: 'Xavi Hernández',
+    descricao: 'Xavi Hernández, um dos maiores meias da história, foi fundamental para a construção do Barcelona de Guardiola, com sua visão de jogo e passes precisos.',
+    links: {
+        instagram: 'https://www.instagram.com/xavihernadez/',
+        wiki: 'https://pt.wikipedia.org/wiki/Xavi_Hernández'
+    }
+};
+
+let andresIniesta = {
+    nome: 'Andrés Iniesta',
+    descricao: 'Andrés Iniesta, com sua elegância e habilidade, foi um dos pilares do meio-campo do Barcelona por muitos anos, sendo responsável por gols históricos como o da final da Copa do Mundo de 2010.',
+    links: {
+        instagram: 'https://www.instagram.com/andresiniesta8/',
+        wiki: 'https://pt.wikipedia.org/wiki/Andrés_Iniesta'
+    }
+};
+
+let luisSuarez = {
+    nome: 'Luis Suárez',
+    descricao: 'Luis Suárez, um dos atacantes mais completos do mundo, formou um trio de ataque histórico com Messi e Neymar, sendo fundamental para as conquistas do Barcelona nos últimos anos.',
+    links: {
+        instagram: 'https://www.instagram.com/luissuarez9/',
+        wiki: 'https://pt.wikipedia.org/wiki/Luis_Suárez'
+    }
+};
+
+let rivaldo = {
+    nome: 'Rivaldo',
+    descricao: 'Rivaldo, com sua habilidade e versatilidade, foi um dos principais jogadores do Barcelona na década de 1990, sendo eleito o melhor jogador do mundo em 1999.',
+    links: {
+        instagram: 'https://www.instagram.com/rivaldooficial/',
+        wiki: 'https://pt.wikipedia.org/wiki/Rivaldo'
+    }
+};
+
+let romario = {
+    nome: 'Romário',
+    descricao: 'Romário, um dos maiores artilheiros da história, marcou época no Barcelona com sua voracidade goleadora, sendo um dos principais responsáveis pela conquista do título espanhol em 1993.',
+    links: {
+        instagram: 'https://www.instagram.com/romariodejesus/',
+        wiki: 'https://pt.wikipedia.org/wiki/Romário'
+    }
+};
+
+let neymarJr = {
+    nome: 'Neymar Jr.',
+    descricao: 'Neymar Jr., um dos maiores talentos do futebol mundial, formou um trio de ataque histórico com Messi e Suárez, sendo fundamental para as conquistas do Barcelona nos últimos anos.',
+    links: {
+        instagram: 'https://www.instagram.com/neymarjr/',
+        wiki: 'https://pt.wikipedia.org/wiki/Neymar'
+    }
+};
+
+let marcAndreTerStegen = {
+    nome: 'Marc-André ter Stegen',
+    descricao: 'Marc-André ter Stegen, um dos melhores goleiros do mundo, chegou ao Barcelona em 2014 e se tornou ídolo da torcida, com defesas espetaculares e títulos importantes.',
+    links: {
+        instagram: 'https://www.instagram.com/markandreter_stegen/',
+        wiki: 'https://pt.wikipedia.org/wiki/Marc-André_ter_Stegen'
+    }
+};
+
 let dados = [
     lionelMessi,
     ronaldinhoGaucho,
-    johanCruyff
+    johanCruyff,
+    xaviHernandez,
+    andresIniesta,
+    luisSuarez,
+    rivaldo,
+    romario,
+    neymarJr,
+    marcAndreTerStegen
 ];
