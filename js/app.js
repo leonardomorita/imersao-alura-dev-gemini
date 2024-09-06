@@ -9,10 +9,22 @@
  *   - wiki: O link para a página do jogador na Wikipédia.
  */
 function pesquisar() {
-    let resultadosPequisaSection = document.getElementById('resultados-pesquisa');
+    let resultadosPesquisaSection = document.getElementById('resultados-pesquisa');
+    let campoPesquisa = document.getElementById('campo-pesquisa').value;
+    let resultadoNaoEncontrado = '<p>Nenhum Resultado Encontrado</p>';
+
+    if (!campoPesquisa) {
+        resultadosPesquisaSection.innerHTML = resultadoNaoEncontrado;
+        return;
+    }
 
     let resultado = '';
     for (let dado of dados) {
+        if (
+            !dado.nome.trim().toLowerCase().includes(campoPesquisa.trim().toLowerCase())
+            && !dado.descricao.toLowerCase().trim().includes(campoPesquisa.trim().toLowerCase())
+        ) continue;
+
         resultado += `
             <div class="item-resultado">
                 <h2>
@@ -23,6 +35,8 @@ function pesquisar() {
             </div>
         `;
     }
-    
-    resultadosPequisaSection.innerHTML = resultado;
+
+    if (!resultado) resultado = resultadoNaoEncontrado;
+
+    resultadosPesquisaSection.innerHTML = resultado;
 }
